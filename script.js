@@ -23,7 +23,6 @@ const imageLoaded = () => {
         // Increase image count and refresh API Url
         imageCount = increasedImageCount;
         apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${imageCount}`;
-        console.log(photosArray)
     }
 }
 
